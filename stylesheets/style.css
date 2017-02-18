@@ -1,0 +1,130 @@
+/* line 1, ../sass/style.scss */
+div, section {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+.name {
+  color: #3db5c6;
+  float: right;
+  font-size: 16px;
+}
+
+/* line 9, ../sass/style.scss */
+.row:before, .row:after {
+  content: ' ';
+  display: table;
+}
+
+/* line 13, ../sass/style.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 16, ../sass/style.scss */
+.section {
+  overflow: hidden;
+}
+
+/* line 19, ../sass/style.scss */
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+/* line 27, ../sass/style.scss */
+.product-container {
+  padding-top: 0;
+  position: relative;
+}
+
+/* line 31, ../sass/style.scss */
+.large-1 {
+  width: 91.66667%;
+}
+
+/* line 34, ../sass/style.scss */
+.large-push-1 {
+  left: 8.33333%;
+  right: auto;
+}
+
+/* line 38, ../sass/style.scss */
+.column {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  float: left;
+  min-height: 2px;
+}
+
+/* line 47, ../sass/style.scss */
+.product-content-phone {
+  float: right;
+  padding-top: 105px;
+  padding-right: 160px;
+}
+
+/* line 52, ../sass/style.scss */
+.large-2 {
+  width: 50%;
+}
+
+/* line 55, ../sass/style.scss */
+.large-pull-1 {
+  right: 33.33333%;
+  left: auto;
+}
+
+/* line 59, ../sass/style.scss */
+.image-phone {
+  width: 600px;
+  height: 600px;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  background-image: url(../img/phone.png);
+  position: relative;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+  border-radius: 300px;
+}
+
+/* line 72, ../sass/style.scss */
+.product-content {
+  position: absolute;
+  z-index: 10;
+  right: 48px;
+  top: 30px;
+}
+
+/* line 78, ../sass/style.scss */
+.image-wrapper {
+  width: 100%;
+}
+
+/* line 81, ../sass/style.scss */
+.image-spots {
+  width: 1065px;
+  height: 796px;
+  background-size: 1065px 796px;
+  background-repeat: no-repeat;
+  background-image: url(../img/colored_spots.png);
+  position: relative;
+  margin-top: 5px;
+  margin-left: 500px;
+}
+
+@media only screen and (max-width: 960px) {
+  /* line 94, ../sass/style.scss */
+  .section {
+    min-height: 512px;
+  }
+}

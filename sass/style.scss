@@ -1,0 +1,97 @@
+div, section{
+ display: block;
+}
+.name {
+  color: #3db5c6;
+  float: right;
+  font-size: 16px;
+}
+.row:before, .row:after {
+  content: ' ';
+  display: table;
+  }
+.row:after {
+ clear: both;
+}
+.section {
+  overflow: hidden;
+}
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+.product-container {
+  padding-top: 0;
+  position: relative;
+}
+.large-1 {
+  width: 91.66667%;
+}
+.large-push-1 {
+  left: 8.33333%;
+  right: auto;
+}
+.column {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  float: left;
+  min-height: 2px;
+}
+.product-content-phone {
+  float: right;
+  padding-top: 105px;
+  padding-right: 160px;
+}
+.large-2 {
+  width: 50%;
+}
+.large-pull-1 {
+  right: 33.33333%;
+  left: auto;
+}
+.image-phone {
+  width: 600px;
+  height: 600px;
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  background-image: url(../img/phone.png);
+  position: relative;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+  border-radius: 300px;
+}
+.product-content {
+  position: absolute;
+  z-index: 10;
+  right: 48px;
+  top: 30px;
+}
+.image-wrapper {
+  width: 100%;
+  }
+.image-spots {
+  width: 1065px;
+  height: 796px;
+  background-size: 1065px 796px;
+  background-repeat: no-repeat;
+  background-image: url(../img/colored_spots.png);
+  position: relative;
+  margin-top: 5px;
+  margin-left: 500px;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .section {
+    min-height: 512px;
+  }
+}
